@@ -495,8 +495,8 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shamu/etc/permissions/rcsservice.xml:system/etc/permissions/rcsservice.xml:moto 
     
     #Want to use the audio effects out of factory image for fmas
-    PRODUCT_COPY_FILES += \
-    vendor/moto/shamu/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf:moto 
+    #PRODUCT_COPY_FILES += \
+    #vendor/moto/shamu/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf:moto 
     
     #missing bins
     PRODUCT_COPY_FILES += \
